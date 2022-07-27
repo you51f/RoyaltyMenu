@@ -1,0 +1,481 @@
+.top-box {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: 2;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 1vw;
+    padding-bottom: 3vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    pointer-events: auto;
+    font-size: 1rem;
+}
+.img-logo {
+  width: 200px;
+    height: 170px;
+}
+.main-background {
+  background: #000000;
+}
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.top-box-title {
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    /* font-family: acumin-pro; */
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.4em
+}
+.top-box-pages {
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    margin-left: auto;
+    padding-left: 3vw;
+}
+
+.top-box-pages-links {
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    margin-right: 15px;
+    color: rgb(124, 122, 122);
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8em;
+    font-size: 1rem;
+}
+
+.top-box-media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.top-box-media-links {
+    margin: 0 20px;
+    font-size: large;
+}
+
+.fa-twitter {
+    color: #ffffff;
+    border: none;
+    outline: none;
+    text-decoration: none;
+  }
+  
+  .fa-instagram {
+    color: #ffffff;
+    border: none;
+    outline: none;
+    text-decoration: none;
+  }
+  .fa-google {
+    color: #ffffff;
+    border: none;
+    outline: none;
+    text-decoration: none;
+  }
+
+  .mid-box {
+    padding-top: 2vw;
+    padding-bottom: 3.3vw;
+    min-height: 33vh;
+  }
+  .mid-box-small {
+    padding-top: 3.3vw;
+    padding-bottom: 3.3vw;
+    min-height: 33vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .mid-box-small2 {
+    padding-top: 6vw;
+    padding-bottom: 3.3vw;
+    min-height: 33vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .med-box-about2 {
+    padding-top: 3.3vw;
+    padding-bottom: 3.3vw;
+    min-height: 33vh;
+    display: flex;
+    padding: 0 30px;
+    flex-direction: row;
+  }
+  .med-box-about3 {
+    padding-top: 3.3vw;
+    padding-bottom: 3.3vw;
+    min-height: 33vh;
+    display: flex;
+    padding: 0 30px;
+    flex-direction: row;
+    margin-top: 30px;
+  }
+  .med-box-contact {
+    width: 500px;
+    padding: 0 50px;
+  }
+  .med-box-contact2 {
+    padding: 0 0px;
+  }
+
+  .spanW {
+    width: 50%;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+  .grid2 {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 3vw;
+  }
+  .grid3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .grid-image {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    line-height: 0;
+  }
+
+  .grid-image-img {
+    width: 100%;
+    height: 100%;
+    object-position: 50% 50%;
+    object-fit: cover;
+  }
+
+  .grid-text {
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-top: 30px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.4em;
+    font-size: 1.6rem;
+  }
+  .grid-text-about {
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-top: 30px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.4em;
+    font-size: 1.4rem;
+  }
+  .grid-text-date {
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-top: 30px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.01em;
+    text-transform: none;
+    line-height: 1em;
+    font-size: 16px;
+    color: #8b95a8;
+  }
+  .grid-text-readmore {
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-top: 30px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.01em;
+    text-transform: none;
+    line-height: 1em;
+    font-size: 14px;
+  }
+  .read-more {
+    color: #8b95a8;
+  }
+  .links {
+    color: #8b95a8;
+    text-decoration: none;
+    border-bottom: 1px solid #8b95a8;
+  }
+  .link {
+    color: #8b95a8;
+    text-decoration: none;
+  }
+  .workLink {
+    color: black;
+    text-decoration: none;
+  }
+  .active {
+    border-bottom: 1px solid #8b95a8;
+  }
+
+  .med-box-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+  .med-box-title-text {
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    /* font-family: acumin-pro; */
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.4em;
+}
+  .med-box-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  .med-box-about-title {
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8em;
+    font-size: 1rem;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+    color: #8b95a8;
+}
+  .med-box-about-title-p {
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8em;
+    font-size: 0.9rem;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+}
+  .med-box-about-title-1 {
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8em;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+    margin-top: -10px;
+    
+}
+  .med-box-about-title-2 {
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8em;
+    font-size: 1rem;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+    color: rgb(233, 176, 70);
+    
+}
+  .med-box-about-title-3 {
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8em;
+    font-size: 1rem;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+    color: #8b95a8;
+    
+}
+
+
+  .bottom-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 3vw;
+    
+    pointer-events: auto;
+    font-size: 1rem;
+    /* background: rgb(248, 204, 108); */
+}
+
+.bottom-box-media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bottom-box-media-links {
+    margin: 0 12px;
+    font-size: 26px;
+}
+
+.bottom-box-pages {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.bottom-box-pages-links {
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    margin-right: 15px;
+    margin-left: 15px;
+    color: rgb(124, 122, 122);
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8em;
+    font-size: 1.6rem;
+}
+.bottom-box-mine {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.bod {
+  margin: 0;
+}
+.bottom-box-mine-links {
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8em;
+    font-size: 1rem;
+}
+
+@media (max-width: 730px) {
+  .mid-box-small {
+    padding-top: 3.3vw;
+    padding-bottom: 3.3vw;
+    min-height: 33vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .med-box-about2 {
+    padding-top: 3.3vw;
+    padding-bottom: 3.3vw;
+    min-height: 33vh;
+    display: flex;
+    padding: 0 30px;
+    flex-direction: column;
+  }
+  .med-box-contact {
+    width: 500px;
+    padding: 0 0px;
+  }
+  .grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin-bottom: 40px;
+  }
+  .grid2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .med-box-about-title-1 {
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8em;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+    
+}
+.med-box-about-title-2 {
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0em;
+  text-transform: none;
+  line-height: 1.8em;
+  font-size: 1rem;
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(233, 176, 70);
+  justify-content: center;
+    display: flex;
+  
+}
+.med-box-about-title-3 {
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0em;
+  text-transform: none;
+  line-height: 1.8em;
+  font-size: 1rem;
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+  color: #8b95a8;
+  justify-content: center;
+    display: flex;
+  
+}
+.med-box-about-title-p {
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  letter-spacing: 0em;
+  text-transform: none;
+  line-height: 1.8em;
+  font-size: 0.9rem;
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+  justify-content: center;
+    display: flex;
+}
+}
